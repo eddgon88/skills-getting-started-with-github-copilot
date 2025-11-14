@@ -197,6 +197,32 @@ footer {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+  flex: 1;
+}
+
+.delete-participant-btn {
+  padding: 4px 8px;
+  font-size: 16px;
+  background-color: #dc3545;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  color: white;
+  min-width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.2s;
+  flex-shrink: 0;
+}
+
+.delete-participant-btn:hover {
+  background-color: #c82333;
+}
+
+.delete-participant-btn:active {
+  background-color: #bd2130;
 }
 
 /* small helper when no participants */
